@@ -12,6 +12,6 @@
     <title>Fantasy code</title>
 </head>
 <body>
-    
+     <?php include("_header.php"); ?> 
 </body>
 </html>
