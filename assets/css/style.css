@@ -1,0 +1,12 @@
+root {
+    --backgound-first-color:#1E9F69;
+    --background-second-color:#E97101;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
