@@ -13,5 +13,6 @@
 </head>
 <body>
      <?php include("_header.php"); ?> 
+     <script src="assets/js/script.js"></script>
 </body>
 </html>
