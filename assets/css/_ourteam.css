@@ -1,0 +1,28 @@
+@import url(style.css);
+
+body {
+    background-color: #F7F1E9;
+    font-family: 'Fredoka', sans-serif;
+    color: #47570f;
+    font-size: 1.2rem;
+    
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    color: #f5f2ed;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+
+.hulkQuote {
+    border: 1px solid;
+    display: flex;
+    
+}
+
