@@ -12,6 +12,7 @@
     <title>Fantasy code</title>
 </head>
 <body>
-     <?php include("_header.php"); ?> 
+     <?php include("_header.php"); ?>
+     <?php include("_footer.php"); ?> 
 </body>
 </html>
