@@ -12,8 +12,12 @@
     <title>Fantasy code</title>
 </head>
 <body>
+<<<<<<< HEAD
      <?php include("_header.php"); ?>
      <?php include("_footer.php"); ?> 
+=======
+     <?php include("_header.php"); ?> 
+>>>>>>> fa20f91f4c920558604da96cc207d2108d4ae6bd
      <script src="assets/js/script.js"></script>
 </body>
 </html>
