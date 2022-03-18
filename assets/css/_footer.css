@@ -1,0 +1,40 @@
+.contact_and_media {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+    grid-gap: 2rem;
+}
+
+#contact_us {
+    grid-column-start: 1;
+}
+
+.icon_medias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    
+}
+.icon_medias > div {
+    grid-row-start: 2;
+}
+
+#copyright {
+    grid-row-start: 3;
+}
+
+img {
+    max-width: 40%;
+    min-width: 20%;
+    height: auto;
+  }
+    
+
+
+
+
+
+
+
+ 
+
