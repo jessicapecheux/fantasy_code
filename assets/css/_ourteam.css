@@ -19,7 +19,7 @@ h1 {
 
 section.ourTeam {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     
     
 }
