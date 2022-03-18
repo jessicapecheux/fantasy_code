@@ -1,28 +1,66 @@
 @import url(style.css);
 
 body {
-    background-color: #F7F1E9;
+    
     font-family: 'Fredoka', sans-serif;
-    color: #47570f;
+    color: #1cda5b;
     font-size: 1.2rem;
     
 }
 
 h1 {
     font-family: 'Fredoka', sans-serif;
+    font-size: 6rem;
     text-align: center;
-    color: #f5f2ed;
+    color: #1cda5b;
+    margin-top: 5rem;
 }
 
-section {
+.ourteam {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
      
 }
 
+
 .hulkQuote {
     border: 1px solid;
-    display: flex;
+    color:rgb(241, 103, 10);
+    background-color: #ebfbf0;
+    font-size: 1rem;
+    width: 25rem;
+    float: right;
     
+        
 }
 
+.homerPic{
+    margin-left: 25rem;
+}
+
+.homerQuote {
+    border: 1px solid;
+    color:rgb(241, 103, 10);
+    background-color: #ebfbf0;
+    font-size: 1rem;
+    width: 20rem;
+    float: left;
+        
+}
+
+.batmanQuote {
+    border: 1px solid;
+    width: 25rem;
+    float: right;
+        
+}
+.yodaQuote {
+    border: 1px solid;
+    width: 25rem;
+    float: left;
+        
+}
+
+.yodaPic {
+    margin-left: 25rem;
+}
