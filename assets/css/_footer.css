@@ -1,0 +1,57 @@
+.contact_and_media {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+    grid-gap: 2rem;
+}
+
+#contact_us {
+    grid-column-start: 1;
+}
+
+#icon_medias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+#icon_facebook {
+    grid-row-start: 2;
+}
+
+#icon_twitter {
+    grid-row-start: 2;
+}
+
+#icon_instagram {
+    grid-row-start: 2;
+}
+
+#icon_gmail {
+    grid-row-start: 2;
+}
+
+#icon_phone {
+    grid-row-start: 2;
+}
+#copyright {
+    grid-row-start: 3;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+  }
+    /* grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+
+
+
+
+
+
+
+ 
+
