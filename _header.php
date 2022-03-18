@@ -1,16 +1,16 @@
 <header>
     <div class="buttonBurger">
-        <span class="burger"></span>
-        <span class="burger"></span>
-        <span class="burger"></span>
+        <span class="burger burger1"></span>
+        <span class="burger burger2"></span>
+        <span class="burger burger3"></span>
     </div>
     <nav class="sideNavBar">
         <ul>
-            <li><a href="#">aaaaaaaa</a></li>
-            <li><a href="#">bbbbbbbb</a></li>
-            <li><a href="#">cccccccc</a></li>
-            <li><a href="#">dddddddd</a></li>
-            <li><a href="#">eeeeeeee</a></li>
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
         </ul>
     </nav>
     <section>

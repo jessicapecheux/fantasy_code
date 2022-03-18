@@ -9,43 +9,26 @@
     grid-column-start: 1;
 }
 
-#icon_medias {
+.icon_medias {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
+    
 }
-
-#icon_facebook {
+.icon_medias > div {
     grid-row-start: 2;
 }
 
-#icon_twitter {
-    grid-row-start: 2;
-}
-
-#icon_instagram {
-    grid-row-start: 2;
-}
-
-#icon_gmail {
-    grid-row-start: 2;
-}
-
-#icon_phone {
-    grid-row-start: 2;
-}
 #copyright {
     grid-row-start: 3;
 }
 
 img {
-    max-width: 20%;
+    max-width: 40%;
+    min-width: 20%;
     height: auto;
   }
-    /* grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 3; */
+    
 
 
 

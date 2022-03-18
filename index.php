@@ -14,5 +14,6 @@
 <body>
      <?php include("_header.php"); ?>
      <?php include("_footer.php"); ?> 
+     <script src="assets/js/script.js"></script>
 </body>
 </html>

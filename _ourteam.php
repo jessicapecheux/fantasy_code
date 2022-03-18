@@ -1,7 +1,7 @@
 <?php include("index.php"); ?> 
 
     <h1>Our Team</h1>
-    <section>
+    <section class ="ourteam">
       <h2>Hulk Hogan</h2>
       <div class="Hulk">
         <img
@@ -12,10 +12,10 @@
         />
         <p class="hulkQuote">
           <i>
-            ipsum dolor sit amet consectetur adipisicing elit. Labore ad officia
+            " ipsum dolor sit amet consectetur adipisicing elit. Labore ad officia
             a accusantium optio sint laudantium repellat, voluptatum cupiditate
             perferendis, vel pariatur magnam deleniti tempora! Quia debitis
-            labore incidunt praesentium?</i
+            labore incidunt praesentium? "</i
           >
         </p>
         <p>
@@ -28,14 +28,22 @@
           tempore dolor a dolore dignissimos laudantium odit?
         </p>
       </div>
-      <h3>Homer Simpson</h3>
+      <h2>Homer Simpson</h2>
       <div class="Homer">
         <img
           src="/assets/images/homer.png"
           alt="Hulk"
-          width="150rem"
+          width="140rem"
           class="homerPic"
         />
+        <p class="homerQuote">
+          <i>
+            ipsum dolor sit amet consectetur adipisicing elit. Labore ad officia
+            a accusantium optio sint laudantium repellat, voluptatum cupiditate
+            perferendis, vel pariatur magnam deleniti tempora! Quia debitis
+            labore incidunt praesentium?</i
+          >
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
           qui ipsam saepe quasi temporibus ab exercitationem perferendis alias
@@ -54,6 +62,14 @@
           width="200rem"
           class="batmanPic"
         />
+        <p class="batmanQuote">
+          <i>
+            ipsum dolor sit amet consectetur adipisicing elit. Labore ad officia
+            a accusantium optio sint laudantium repellat, voluptatum cupiditate
+            perferendis, vel pariatur magnam deleniti tempora! Quia debitis
+            labore incidunt praesentium?</i
+          >
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
           qui ipsam saepe quasi temporibus ab exercitationem perferendis alias
@@ -72,6 +88,14 @@
           width="200rem"
           class="yodaPic"
         />
+        <p class="yodaQuote">
+          <i>
+            ipsum dolor sit amet consectetur adipisicing elit. Labore ad officia
+            a accusantium optio sint laudantium repellat, voluptatum cupiditate
+            perferendis, vel pariatur magnam deleniti tempora! Quia debitis
+            labore incidunt praesentium?</i
+          >
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
           qui ipsam saepe quasi temporibus ab exercitationem perferendis alias

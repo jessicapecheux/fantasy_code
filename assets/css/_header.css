@@ -1,8 +1,15 @@
+:root{
+    --width-circle: 20%;
+}
+
 header{
     height: 150px;
-    background-color: #1E9F69;
+    background-color: var( --backgound-first-color);
     padding-top: .3rem;
 }
+
+
+/* ////////////////////// button burger ////////////////////////// */
 
 .buttonBurger{
     display: flex;
@@ -16,29 +23,53 @@ header{
     margin-top: 1rem;
     border-radius: 5px;
     border: 1px solid rgb(90, 89, 89);
-    /* box-shadow: 2px 5px 5px black; */
     box-shadow: 0 0 6px black;
 }
 
-.buttonBurger .burger{
+.burger{
     display: block;
     width: 30px;
     height: 4px;
     background-color: rgb(243, 215, 215);
     border-radius: 3px;
     z-index: 1;
+    transition: all .5s ease-in-out;
 }
 
+/* ////////////////////// Animation burger menu /////////////////////////// */
+
+.btnOpen1{
+    transform: rotate(45deg) translate(15px) translateX(-7px) translateY(7px);
+}
+
+.btnOpen2{
+    transform: rotate(-45deg) translate(15px) translateX(-7px) translateY(-7px);
+}
+
+.btnOpenHide{
+    transform: translateX(-50px);
+    background-color: transparent;
+}
+
+
+/* ////////////////////// Nav bar set to [display: none] in Mobil first /////////////////////////// */
+
 header nav{
-    /* padding: 2rem; */
     display: none;
-    background-color: #E97101;
+    background-color: var(--background-second-color);
     width: 200px;
     height: 250px;
-    border-radius: 5px;
+    border-radius: 0% 30% 30% 0%;
+    border: 2px solid #663202;
+    box-shadow: 5px 5px 10px black;
     position: absolute;
     top: 100px;
     z-index: 100;
+    animation: slideOpen 1.2s;
+}
+
+.visible{
+    display: block;
 }
 
 header nav ul{
@@ -54,19 +85,41 @@ header nav ul{
 
 header nav ul li{
     list-style: none;
-   /* margin-top: 1rem; */
-}
-
-
-header nav ul li:first-child{
-    /* margin-top: 1.5rem; */
+    font-size: 1.5rem;
 }
 
 
 a{
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
+
+/* ////////////////////// Animation nav bar  /////////////////////////// */
+
+@keyframes slideOpen {
+    0% {
+         transform: translateX(-200%);
+    }
+    60% {
+        transform: translateX(5%);
+    }
+    65% {
+         transform: rotate3d(1, 0, 0, 0deg);
+    }
+    75% {
+         transform: rotate3d(1, 0, 0, 180deg);
+    }
+    90% {
+          transform: rotate3d(1, 0, 0, 360deg);
+    }
+    100% {
+         transform: translateX(-1%);
+    }
+  }
+
+
+/* ////////// Section containing the different links for choosing languages ///////////// */
 
 section{
     margin-top: 2rem;
@@ -78,11 +131,18 @@ section{
 
 .langage{
     background-color: rgb(155, 206, 252);
-    width: 70px;
-    height: 70px;
+    width:  20vw;
+    height: 20vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px black;
 }
+
+.langage a{
+    color: black;
+    font-weight: bold;
+}
+
+
