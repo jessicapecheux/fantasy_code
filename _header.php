@@ -6,11 +6,11 @@
     </div>
     <nav class="sideNavBar">
         <ul>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
+            <li><a href="#">Front-end</a></li>
+            <li><a href="#">Back-end</a></li>
+            <li><a href="#">Designer</a></li>
+            <li><a href="#">Data</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <section>
