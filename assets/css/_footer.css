@@ -1,33 +1,41 @@
-.contact_and_media {
+/* .contact_and_media {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1;
     grid-template-rows: 3;
-    grid-gap: 2rem;
-}
-
-#contact_us {
-    grid-column-start: 1;
-}
+    grid-gap: 8rem;
+} */
 
 .icon_medias {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2rem;
-    
-}
-.icon_medias > div {
-    grid-row-start: 2;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 3;
+    grid-gap: 3rem;
 }
 
+#contact_us {
+    grid-column: 0;
+    
+}
+
+/* .icon_medias {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+} */
+
+/* .icon_medias > a {
+    grid-row: 2;
+} */
+
 #copyright {
+    grid-column: 1fr;
     grid-row-start: 3;
 }
 
 img {
     max-width: 40%;
-    min-width: 20%;
-    height: auto;
-  }
+    min-width: 10px;
+}
     
 
 
