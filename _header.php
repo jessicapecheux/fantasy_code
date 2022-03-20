@@ -4,19 +4,19 @@
         <span class="burger burger2"></span>
         <span class="burger burger3"></span>
     </div>
-    <nav class="sideNavBar">
+    <nav class="sideNavBar topNavBar" >
         <ul>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
-            <li><a href="#">Lien</a></li>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="_ourteam.php">Équipe</a></li>
+            <li><a href="#">Designer</a></li>
+            <li><a href="#">Data</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <section>
-        <div class="langage"><a href="#">Front-end</a></div>
-        <div class="langage"><a href="#">Back-end</a></div>
-        <div class="langage"><a href="#">Designer</a></div>
-        <div class="langage"><a href="#">Data</a></div>
+        <div class="language"><a href="#">Front-end</a></div>
+        <div class="language"><a href="#">Back-end</a></div>
+        <div class="language"><a href="#">Designer</a></div>
+        <div class="language"><a href="#">Data</a></div>
     </section>
 </header>
