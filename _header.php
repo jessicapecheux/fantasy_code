@@ -6,10 +6,8 @@
     </div>
     <nav class="sideNavBar topNavBar" >
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="_ourteam.php">Équipe</a></li>
-            <li><a href="#">Designer</a></li>
-            <li><a href="#">Data</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="_ourteam.php">Team</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>

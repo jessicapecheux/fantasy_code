@@ -4,6 +4,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,17 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Fantasy code</title>
 </head>
+
 <body>
-     <?php include("_header.php"); ?>
-     <?php include("_footer.php"); ?> 
-     <script src="assets/js/script.js"></script>
+    <?php include("_header.php"); ?>
+
+    <main>
+        <?php include("_welcome.php"); ?>
+    </main>
+
+    <?php include("_footer.php"); ?>
+    
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
