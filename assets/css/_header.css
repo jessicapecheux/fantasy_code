@@ -14,7 +14,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #1E9F69;
+    background-color: var(--backgound-first-color);
     width: 40px;
     height: 40px;
     margin: auto;

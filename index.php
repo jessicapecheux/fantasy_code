@@ -15,10 +15,13 @@
 
 <body>
     <?php include("_header.php"); ?>
+
     <main>
         <?php include("_welcome.php"); ?>
     </main>
+
     <?php include("_footer.php"); ?>
+    
     <script src="assets/js/script.js"></script>
 </body>
 
