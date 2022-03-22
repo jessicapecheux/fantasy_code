@@ -13,7 +13,7 @@ h1 {
   font-family: "Fredoka", sans-serif;
   font-size: 7rem;
   text-align: center;
-  color: var(--backgound-first-color);
+  color: var(--background-first-color);
   padding-top: 5rem;
   letter-spacing: 1rem;
   
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-family: "Fredoka", sans-serif;
-  color: rgb(241, 103, 10);
+  color: var(--background-second-color);
   font-size: 2.5rem;
   padding-top: 3rem;
   height: 100%;
@@ -29,10 +29,10 @@ h2 {
 
 h3 {
   font-family: "Fredoka", sans-serif;
-  color: var(--backgound-first-color);
+  color: var(--background-first-color);
   padding-bottom: 3rem;
   height: 100%;
-  font-size: 2.5rem;;
+  font-size: 2.5rem;
 }
 
 .ourteam {
