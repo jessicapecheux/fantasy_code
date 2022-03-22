@@ -137,16 +137,23 @@ header a{
 
 @media screen and (min-width: 800px) {
 
+    header nav ul li{
+        margin: 0;
+        background-color: initial;
+        border-bottom: initial;
+        width: 10%;
+    }
+
     header nav ul li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(7){
         display: none;
     }
 
     header nav ul li:first-child{
-        margin-right: 18rem;
+        margin-right: 11vw;
     } 
 
     header nav ul li:nth-child(3){
-        margin-left: 18rem;
+        margin-left: 11vw;
     }
 }
 
@@ -234,6 +241,7 @@ section{
     align-items: center;
     box-shadow: 0 0 10px black;
     margin-bottom: 3rem;
+    z-index: 10;
 }
 
 .language a{
