@@ -5,26 +5,34 @@ p {
   color: var(--backgound-first-color);
   font-size: 1.2rem;
   text-align: justify;
-  padding: 1rem 1rem 1rem 1rem;
+  margin: 3rem;
+  
 }
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 6rem;
+  font-family: "Fredoka", sans-serif;
+  font-size: 7rem;
   text-align: center;
   color: var(--backgound-first-color);
   padding-top: 5rem;
+  letter-spacing: 1rem;
+  
 }
 
 h2 {
+  font-family: "Fredoka", sans-serif;
   color: rgb(241, 103, 10);
   font-size: 2.5rem;
   padding-top: 3rem;
+  height: 100%;
 }
 
 h3 {
+  font-family: "Fredoka", sans-serif;
   color: var(--backgound-first-color);
   padding-bottom: 3rem;
+  height: 100%;
+  font-size: 2.5rem;;
 }
 
 .ourteam {
@@ -44,10 +52,12 @@ div {
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
   background-color: #ebfbf0;
-  padding-top: 2.5rem;
+  padding-top: 4.5rem;
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    width:300px;
+    height: 200px;
 }
 
 .homer {
@@ -65,19 +75,9 @@ div {
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-}
-
-.batman {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.batmanPic {
-  margin-left: 10%;
-  width: 80%;
-  height: 80%;
+    width:300px;
+    height: 200px;
+    padding-top: 3.5rem;
 }
 
 .batmanQuote {
@@ -89,13 +89,15 @@ div {
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    width:300px;
+    height: 200px;
+    padding-top: 3.5rem;
 }
 
 .yoda {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
+  
 }
 
 .yodaQuote {
@@ -106,6 +108,9 @@ div {
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    width:300px;
+    height: 200px;
+    padding-top: 3.5rem;
 }
 
 /* @media screen and (min-width: 800px) {
