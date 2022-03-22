@@ -11,6 +11,7 @@
     --backgound-first-color:#1E9F69;
     --background-second-color:#E97101;
     --font-primary: font-family: 'Fredoka', sans-serif;
+    --background-main-color:#edeec9;
 }
 
 * {
@@ -19,6 +20,7 @@
 
 body {
     margin: 0;
+    background-color: var(--background-main-color);
 }
 
 @import url(_data.css);
