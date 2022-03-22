@@ -21,4 +21,8 @@ body {
     margin: 0;
 }
 
+@import url(_data.css);
+@import url(_designer.css);
+@import url(_devback.css);
+@import url(_devfront.css);
 
