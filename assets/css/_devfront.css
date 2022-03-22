@@ -1,1 +1,39 @@
 @import url(style.css);
+
+p {
+    font-family: "Fredoka", sans-serif;
+    color: var(--backgound-first-color);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+    
+  }
+  
+  h1 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 7rem;
+    text-align: center;
+    color: var(--backgound-first-color);
+    padding-top: 5rem;
+    letter-spacing: 1rem;
+    
+  }
+  
+  h2 {
+      text-align: center;
+    font-family: "Fredoka", sans-serif;
+    color: rgb(241, 103, 10);
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+  }
+
+  li {
+    font-family: "Fredoka", sans-serif;
+    color: var(--backgound-first-color);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+    
+  }
