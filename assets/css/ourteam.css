@@ -39,9 +39,30 @@ h3 {
   margin: 2rem;
 }
 
-div {
+.hulk {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+}
+
+.homer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.batman {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+div.yoda {
+  display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
@@ -57,18 +78,17 @@ div p {
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
   width: 150px;
-  height: 100px;
-  padding-top: 1rem;
+  padding-bottom: 2rem;
   padding-left: 1rem;
 }
 
 div.homer {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 
 div.yoda {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 
@@ -94,8 +114,7 @@ div.yoda {
 
   div p {
     width: 35vh;
-    height: 20vh;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 0.5rem;
     padding-left: 3rem;
     line-height: 80px;
