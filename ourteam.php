@@ -19,7 +19,7 @@
     <img src="/assets/images/hulk.png" alt="Hulk" width="200px"  class="hulkPic" />
     <p class="hulkQuote">
       <i>
-        " Cool but angry "
+        " Cool but angry,</br> really ANGRY "
       </i>
     </p>
   </div>
