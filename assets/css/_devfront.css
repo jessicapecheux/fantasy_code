@@ -2,7 +2,7 @@
 
 p {
     font-family: "Fredoka", sans-serif;
-    color: var(--backgound-first-color);
+    color: var(--background-first-color);
     font-size: 1.2rem;
     text-align: justify;
     margin: 3rem;
@@ -13,7 +13,7 @@ p {
     font-family: "Fredoka", sans-serif;
     font-size: 7rem;
     text-align: center;
-    color: var(--backgound-first-color);
+    color: var(--background-first-color);
     padding-top: 5rem;
     letter-spacing: 1rem;
     
