@@ -1,9 +1,9 @@
 footer {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 150px; */
+    
     background-color: var( --background-first-color);
     color: var( --background-second-color);
     /* font-family: var( --font-primary);  */
