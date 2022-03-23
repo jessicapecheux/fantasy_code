@@ -1,5 +1,5 @@
 <footer class= "contact_and_media">
-        <a href="" id= "contact_us"><p>Contact us</p></a>
+        <div id= "contact_us" href="contact.php" >Contact us</div>
         <div class= "icon_medias">
                 <a href="https://fr-fr.facebook.com/">
                         <img src="assets/images/facebook.png" alt="facebook"  />
@@ -17,5 +17,5 @@
                         <img src="assets/images/phone.png" alt="phone"  />
                 </a>
         </div>
-        <div id= "copyright">copyright</div>
+        <div id= "copyright">&#9400; Fantasy Code 2022</div>
 </footer>
