@@ -1,3 +1,7 @@
+*{
+    font-family: var(--font-primary);
+}
+
 .welcomeBox:first-child{
     max-width: 100%;
     margin-top: clamp(1rem, 10vw, 6rem);
@@ -14,11 +18,10 @@
 }
 
 .welcomeMsg{
-    font-family: var(--font-primary);
     width: 90%;
     padding: 0;
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: black;
     margin-bottom: 3rem;
 }
@@ -27,12 +30,12 @@
 @media screen and (min-width: 800px){
     .welcomeMsg{
         width: 60%;
-        margin-bottom: 3rem;
     }
 
     .welcomeBox:first-child img{
-        max-width: 70%;
+        max-width: 65%;
         margin: auto;
+        border-radius: 20px;
     }
 }
 

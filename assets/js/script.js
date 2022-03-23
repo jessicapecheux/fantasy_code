@@ -10,3 +10,19 @@ buttonBurger.addEventListener("click", function () {
     burger2.classList.toggle("btnOpenHide");
     burger3.classList.toggle("btnOpen2");
   });
+
+
+document.addEventListener("DOMContentLoaded", function(){
+  ScrollReveal().reveal('.items_1', {
+      reset: true,
+      distance: '5%', 
+      origin: 'left',
+      delay: 300 
+  });
+  ScrollReveal().reveal('.items_2', {
+      reset: true, 
+      distance: '3%',  
+      origin: 'left',
+      delay: 700  
+  });
+});
