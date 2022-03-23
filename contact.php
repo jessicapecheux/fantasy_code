@@ -11,11 +11,28 @@
 </head>
 <body>
     <h1>Contact us</h1>
-    <label for="fname">Firstname</label>
-    <imput type="text" id="fname">
+    <form action="/action.contact.php"method="post">
+   <label for="name">Firstame</label>
+   <input type="text" id="name"name="name" placeholder="Homer" required>
+    <br><br>
+    <label for="name">Lastname</label>
+    <input type="text" id="name"name=name placeholder="Simpson" required>
+   <br><br>
+   <label for="email">Email</label>
+    <input type="text" id="email"name=email placeholder="homer.simpson@gmail.com" required>
+    <br><br>
+    <label for="Message">Message</label>
+    <textarea id="Message" name="Messsage" rows="10" cols="40">
+        Hello, I would like to be able to obtain more information about the data analyst training...
+    </textarea>
+        
+        
+    </textarea>
+    <br><br>
+    <input type="submit">
+    </form>
 
     
-</body>
 </html>
 
 
