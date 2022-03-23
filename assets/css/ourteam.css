@@ -10,7 +10,7 @@ p {
 }
 
 h1 {
-  font-family: "Fredoka", sans-serif;
+  font-family: var(--font-primary);
   font-size: 7rem;
   color: var(--background-first-color);
   padding-top: 5rem;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Fredoka", sans-serif;
+  font-family: var(--font-primary);
   color: var(--background-second-color);
   font-size: 2.5rem;
   padding-top: 3rem;
@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Fredoka", sans-serif;
+  font-family: var(--font-primary);
   color: var(--background-first-color);
   padding-bottom: 3rem;
   font-size: 2.5rem;
