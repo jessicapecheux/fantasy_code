@@ -5,214 +5,172 @@ p {
   color: var(--background-first-color);
   font-size: 1.2rem;
   text-align: justify;
-  margin: 3rem;
-  line-height: 2rem;;
+  line-height: 2rem;
+  font-weight: 500;
 }
 
 h1 {
   font-family: "Fredoka", sans-serif;
   font-size: 7rem;
-  text-align: center;
   color: var(--background-first-color);
   padding-top: 5rem;
   letter-spacing: 1rem;
-  
-  
+  text-align: center;
 }
-
 
 h2 {
   font-family: "Fredoka", sans-serif;
   color: var(--background-second-color);
   font-size: 2.5rem;
   padding-top: 3rem;
-  height: 100%;
-  
+  text-align: center;
 }
 
 h3 {
   font-family: "Fredoka", sans-serif;
   color: var(--background-first-color);
   padding-bottom: 3rem;
-  height: 100%;
   font-size: 2.5rem;
 }
 
 .ourteam {
   display: flex;
   flex-direction: column;
+  margin: 2rem;
 }
 
 div {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .hulkQuote {
-  font-size: 2rem;
+  font-size: 1rem;
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
   background-color: #ebfbf0;
-  padding-top: 4.5rem;
+  padding-top: 2rem;
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-    width:300px;
-    height: 200px;
-    padding-left: 1.5rem;
+  width: 150px;
+  height: 100px;
+  padding-left: 0.5rem;
 }
 
-.homer {
-  display: flex;
+div.homer {
   flex-direction: row;
-  
 }
 
 .homerQuote {
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
   background-color: #ebfbf0;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-    width:300px;
-    height: 200px;
-    padding-top: 3.5rem;
-    padding-left: 2rem;
+  width: 150px;
+  height: 100px;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 .batmanQuote {
-  padding-top: 2.5rem;
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
   background-color: #ebfbf0;
-  font-size: 1.8rem;
+  font-size: 1rem;
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-    width:300px;
-    height: 200px;
-    padding-top: 3.5rem;
-    padding-left: 2.5rem;
+  width: 150px;
+  height: 100px;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
 }
 
-.yoda {
-  display: flex;
+div.yoda {
   flex-direction: row;
-  
 }
 
 .yodaQuote {
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
   background-color: #ebfbf0;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 3%;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-    width:300px;
-    height: 200px;
-    padding-top: 3.5rem;
-    padding-left: 2.5rem;
+  width: 150px;
+  height: 100px;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
-@media screen and (min-width: 1600px) {
-
-
-  p{
-    margin: 5rem 15rem 5rem 15rem;
+@media screen and (min-width: 800px) {
+  div {
+    
+    max-width: 60%;
+    margin: auto;
   }
 
-
-  /* .ourteam {
-    margin: 10rem;
-  } */
-
-  /* h1 {
-    margin-top: 20rem;
-    font-size: 10rem;
-  }
-
-  h2 {
-    font-size: 5rem;
-  }
-
-  h3 {
-    font-size: 3rem;
-  }
   p {
-    font-size: 3rem;
-  }
-  .hulk {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
-  .hulkPic {
-    width: 25rem;
-    margin-left: 20rem;
-  }
-  .hulkQuote {
-    height: 10rem;
-    width: 50rem;
-    margin-top: 10rem;
-    margin-left: 20rem;
-    padding-left: 12rem;
-    font-size: 3rem;
+    max-width: 60%;
+    margin: auto;
   }
 
-  .homer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+  .hulkPic {
+    width: 30vh;
   }
-  .homerPic {
-    width: 25rem;
-    margin-left: 20rem;
-  }
-  .homerQuote {
-    height: 20rem;
-    width: 50rem;
-    margin-top: 10rem;
-    margin-left: 20rem;
+
+  .hulkQuote {
+    width: 40vh;
+    height: 20vh;
+    font-size: 2rem;
     padding-top: 5rem;
-    font-size: 3rem;
+    text-align: center;
   }
-  .batman {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+
+  .homerPic {
+    width: 30vh;
   }
+
+  .homerQuote {
+    width: 35vh;
+    height: 20vh;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    line-height: 80px;
+  }
+
   .batmanPic {
-    width: 50rem;
-    margin-left: 20rem;
+    width: 50vh;
   }
+
   .batmanQuote {
-    height: 20rem;
-    width: 50rem;
-    margin-top: 10rem;
-    margin-left: 20rem;
-    padding-top: 4rem;
-    font-size: 3rem;
+    width: 35vh;
+    height: 20vh;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    line-height: 80px;
   }
-  .yoda {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
+
   .yodaPic {
-    width: 50rem;
-    margin-left: 20rem;
+    width: 100vh;
   }
+
   .yodaQuote {
-    height: 15rem;
-    width: 50rem;
-    margin-top: 10rem;
-    margin-left: 20rem;
-    padding-top: 6rem;
-    font-size: 2.5rem;
-  } */
+    width: 35vh;
+    height: 20vh;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    line-height: 80px;
+  }
 }
