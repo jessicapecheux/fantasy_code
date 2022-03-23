@@ -245,7 +245,7 @@ section{
 }
 
 .language a{
-    font-weight: bold;
+    font-family: var(--font-primary);
     font-size: clamp(.2rem, 4vw, 1.2rem);
 }
 

@@ -15,14 +15,14 @@ buttonBurger.addEventListener("click", function () {
 document.addEventListener("DOMContentLoaded", function(){
   ScrollReveal().reveal('.items_1', {
       reset: true,
-      distance: '5%', 
+      distance: '20%', 
       origin: 'left',
       delay: 300 
   });
   ScrollReveal().reveal('.items_2', {
       reset: true, 
-      distance: '3%',  
-      origin: 'left',
+      distance: '20%',  
+      origin: 'right',
       delay: 700  
   });
 });

@@ -2,9 +2,14 @@
     font-family: var(--font-primary);
 }
 
+.welcomeTitle{
+    width: 60%;
+    font-size: clamp(1rem, 10vw, 6rem); 
+}
+
 .welcomeBox:first-child{
     max-width: 100%;
-    margin-top: clamp(1rem, 10vw, 6rem);
+    margin-top: clamp(1rem, 7vw, 6rem);
 }
 
 .welcomeBox:first-child img{

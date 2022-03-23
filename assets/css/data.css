@@ -10,7 +10,7 @@ p {
   }
   
   h1 {
-    font-family: "Fredoka", sans-serif;
+    font-family: var(--font-primary);
     font-size: 7rem;
     text-align: center;
     color: var(--background-first-color);
@@ -20,11 +20,19 @@ p {
   }
   
   h2 {
-      text-align: center;
-    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    font-family: var(--font-primary);
     color: rgb(241, 103, 10);
     font-size: 2.5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
     
+  }
+
+  @media screen and (min-width: 800px){
+
+    p {
+      max-width: 60%;
+      margin: auto;
+    }
   }
