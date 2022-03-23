@@ -1,6 +1,6 @@
 <?php include("_header.php"); ?>
 <script src="assets/js/script.js"></script>
-<link rel="stylesheet" href="/assets/css/_devback.css">
+<link rel="stylesheet" href="/assets/css/devback.css">
 
 <h1>Dev back</h1>
 

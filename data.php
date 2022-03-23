@@ -1,6 +1,6 @@
 <?php include("_header.php"); ?>
 <script src="assets/js/script.js"></script>
-<link rel="stylesheet" href="/assets/css/_data.css">
+<link rel="stylesheet" href="/assets/css/data.css">
 
 <h1>Data Analyst</h1>
 
