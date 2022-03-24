@@ -15,7 +15,7 @@
             <li><a href="data.php">Data</a></li>
         </ul>
     </nav>
-    <section>
+    <section class="boxLanguage">
         <div class="language"><a href="devfront.php">Front-end</a></div>
         <div class="language"><a href="devback.php">Back-end</a></div>
         <div class="language"><a href="designer.php">Designer</a></div>

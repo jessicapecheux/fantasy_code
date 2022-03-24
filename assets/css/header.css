@@ -105,7 +105,7 @@ header nav ul{
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0 ;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -149,11 +149,11 @@ header a{
     }
 
     header nav ul li:first-child{
-        margin-right: 11vw;
+        margin-right: 15vw;
     } 
 
     header nav ul li:nth-child(3){
-        margin-left: 11vw;
+        margin-left: 15vw;
     }
 }
 
@@ -223,7 +223,7 @@ header a{
 
 /* ////////// Section containing the different links for choosing languages ///////////// */
 
-section{
+.boxLanguage{
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
