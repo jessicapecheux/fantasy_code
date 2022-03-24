@@ -1,4 +1,4 @@
-p.ourteam {
+.ourteam p {
   font-family: var(--font-primary);
   color: var(--background-first-color);
   font-size: 1.2rem;
@@ -14,6 +14,7 @@ p.ourteam {
   padding-top: 5rem;
   letter-spacing: 1rem;
   text-align: center;
+  font-size: clamp(1rem, 10vw, 6rem);
 }
 
 .ourteam h2 {
@@ -22,6 +23,7 @@ p.ourteam {
   font-size: 2.5rem;
   padding-top: 3rem;
   text-align: center;
+  font-size: clamp(1rem, 10vw, 6rem);
 }
 
 h3 {
@@ -43,6 +45,10 @@ h3 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.ourteam {
+  color:var(--background-first-color)
 }
 
 .ourteam div p {
