@@ -213,6 +213,10 @@ header a{
     header a:hover::before{
         width: 100%;
     }
+
+    .boxLogo a::after, .boxLogo a::before{
+        display: none;
+    }
 }
 
 
