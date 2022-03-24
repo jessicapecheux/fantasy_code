@@ -1,5 +1,3 @@
-
-
 p.ourteam {
   font-family: var(--font-primary);
   color: var(--background-first-color);
@@ -9,7 +7,7 @@ p.ourteam {
   font-weight: 500;
 }
 
-h1.ourteam {
+.ourteam h1 {
   font-family: var(--font-primary);
   font-size: 7rem;
   color: var(--background-first-color);
@@ -18,7 +16,7 @@ h1.ourteam {
   text-align: center;
 }
 
-h2.ourteam {
+.ourteam h2 {
   font-family: var(--font-primary);
   color: var(--background-second-color);
   font-size: 2.5rem;
@@ -31,23 +29,23 @@ h3 {
   color: var(--background-first-color);
   padding-bottom: 3rem;
   font-size: 2.5rem;
+  text-align: center;
 }
 
-.ourteam {
+section {
   display: flex;
   flex-direction: column;
   margin: 2rem;
 }
 
-
 .ourteam div {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
+  width: 100%;
 }
 
-div p {
+.ourteam div p {
   font-size: 1rem;
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
@@ -61,25 +59,22 @@ div p {
   padding-left: 1rem;
 }
 
-div.homer {
+.homer {
   flex-direction: row-reverse;
 }
 
-
-div.yoda {
+.yoda {
   flex-direction: row-reverse;
 }
-
 
 @media screen and (min-width: 800px) {
-  div {
-    
-    max-width: 60%;
+  .ourteam div {
+    max-width: 70%;
     margin: auto;
   }
 
-  p {
-    max-width: 60%;
+  .ourteam p {
+    max-width: 70%;
     margin: auto;
   }
 
@@ -91,7 +86,7 @@ div.yoda {
     width: 30vh;
   }
 
-  div p {
+  .ourteam div p {
     width: 35vh;
     font-size: 1.8rem;
     padding-top: 0.5rem;
@@ -103,9 +98,7 @@ div.yoda {
     width: 50vh;
   }
 
-   .yodaPic {
+  .yodaPic {
     width: 100vh;
   }
-
-
 }

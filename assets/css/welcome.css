@@ -1,15 +1,24 @@
-*{
+.welcomeBox{
     font-family: var(--font-primary);
 }
 
 .welcomeTitle{
     width: 60%;
+    color: var(--background-first-color);
+    margin: 1rem auto;
     font-size: clamp(1rem, 10vw, 6rem); 
+    text-align: center;
+}
+
+.title_h2{
+    color: var(--background-second-color);
+    text-align: center;
+    font-size: clamp(1rem, 7vw, 3rem);
 }
 
 .welcomeBox:first-child{
-    max-width: 100%;
-    margin-top: clamp(1rem, 7vw, 6rem);
+    width: 100%;
+    margin-top: clamp(1rem, 10vw, 6rem);
 }
 
 .welcomeBox:first-child img{
@@ -31,10 +40,28 @@
     margin-bottom: 3rem;
 }
 
+.vscodeLink{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
 
 @media screen and (min-width: 800px){
+    .welcomeTitle{
+        width: 60%;
+        margin: 2rem auto;
+    }
+
     .welcomeMsg{
         width: 60%;
+        margin: 1rem auto;
+    }
+
+    .welcomeMsg:last-child{
+        margin-bottom: 4rem;
     }
 
     .welcomeBox:first-child img{
@@ -47,6 +74,8 @@
 
 .wordColour{
     color: red;
+    font-weight: bold;
+    letter-spacing: .1rem;
 }
 
 
