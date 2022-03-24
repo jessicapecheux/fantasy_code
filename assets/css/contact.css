@@ -1,1 +1,60 @@
+h1 {
+    
+}
+.container_form {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: auto;
+    background-color: rgb(241, 103, 10);
+    border-radius: 10 px;
+    
+    
+    
+}
+.buton {
+    align-self: center;
+}
+
+.firstname {
+    color: var(--background-first-color);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+text-align: center;
+    }
+.lastname {
+    color: var(--background-first-color);
+text-align: center;
+font-size: 1.2rem;
+text-align: justify;
+margin: 3rem;
+text-align: center;
+}
+.mail {  
+    color: var(--background-first-color);
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+    text-align: center;
+
+
+}
+
+
+
+.message {  color: var(--background-first-color);
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+    text-align: center;
+
+}
+   
+
+    
+
 
