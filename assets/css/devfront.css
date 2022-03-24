@@ -1,10 +1,15 @@
-p {
+.boxContainer{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.boxContainer p {
     font-family: "Fredoka", sans-serif;
     color: var(--background-first-color);
     font-size: 1.2rem;
     text-align: justify;
     margin: 3rem;
-    
   }
   
   h1 {
@@ -35,10 +40,10 @@ p {
     margin: 3rem;
   }
 
-  @media screen and (min-width: 800px){
+  /* @media screen and (min-width: 800px){
 
     p, ul{
       max-width: 60%;
       margin: auto;
     }
-  }
+  } */
