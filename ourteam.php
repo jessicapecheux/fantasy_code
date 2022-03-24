@@ -12,8 +12,8 @@
 
 <body>
 
-  <h1>Our Team</h1>
   <section class="ourteam">
+  <h1>Our Team</h1>
     <h2>"Hulk <i>Aka</i> Bruce Banner"</h2>
 
     <h3>Front End Dev</h3>
