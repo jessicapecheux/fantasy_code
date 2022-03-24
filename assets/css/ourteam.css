@@ -1,5 +1,3 @@
-
-
 p.ourteam {
   font-family: var(--font-primary);
   color: var(--background-first-color);
@@ -9,7 +7,7 @@ p.ourteam {
   font-weight: 500;
 }
 
-h1.ourteam {
+.ourteam h1 {
   font-family: var(--font-primary);
   font-size: 7rem;
   color: var(--background-first-color);
@@ -18,7 +16,7 @@ h1.ourteam {
   text-align: center;
 }
 
-h2.ourteam {
+.ourteam h2 {
   font-family: var(--font-primary);
   color: var(--background-second-color);
   font-size: 2.5rem;
@@ -34,12 +32,11 @@ h3 {
   text-align: center;
 }
 
-.ourteam {
+section {
   display: flex;
   flex-direction: column;
   margin: 2rem;
 }
-
 
 .ourteam div {
   display: flex;
@@ -62,20 +59,16 @@ h3 {
   padding-left: 1rem;
 }
 
-div.homer {
-  flex-direction: row-reverse;
-  
-}
-
-
-div.yoda {
+.homer {
   flex-direction: row-reverse;
 }
 
+.yoda {
+  flex-direction: row-reverse;
+}
 
 @media screen and (min-width: 800px) {
   .ourteam div {
-    
     max-width: 70%;
     margin: auto;
   }
@@ -105,9 +98,7 @@ div.yoda {
     width: 50vh;
   }
 
-   .yodaPic {
+  .yodaPic {
     width: 100vh;
   }
-
-
 }

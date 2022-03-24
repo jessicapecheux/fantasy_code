@@ -49,11 +49,9 @@
         As the nominal foreman of the paternally eponymous family, Homer and his wife Marge have three children: Bart, Lisa and Maggie. As the family's provider, he works at the Springfield Nuclear Power Plant as safety inspector. Homer embodies many American working class stereotypes: he is obese, immature, outspoken, aggressive, balding, lazy, ignorant, unprofessional, and addicted to beer, junk food and watching television. However, he is fundamentally a good man and is staunchly protective of his family, especially when they need him the most. Despite the suburban blue-collar routine of his life, he has had a number of remarkable experiences, including going to space, climbing the tallest mountain in Springfield by himself, fighting former President George H. W. Bush and winning a Grammy Award as a member of a barbershop quartet.
       </p>
 
-      As the nominal foreman of the paternally eponymous family, Homer and his wife Marge have three children: Bart, Lisa and Maggie. As the family's provider, he works at the Springfield Nuclear Power Plant as safety inspector. Homer embodies many American working class stereotypes: he is obese, immature, outspoken, aggressive, balding, lazy, ignorant, unprofessional, and addicted to beer, junk food and watching television. However, he is fundamentally a good man and is staunchly protective of his family, especially when they need him the most. Despite the suburban blue-collar routine of his life, he has had a number of remarkable experiences, including going to space, climbing the tallest mountain in Springfield by himself, fighting former President George H. W. Bush and winning a Grammy Award as a member of a barbershop quartet.
-    </p>
-  </div>
-  <p>
-    Yoda (/joʊdə/) is a fictional character in the Star Wars universe, first appearing in the 1980 film The Empire Strikes Back. He is a small, green humanoid alien who is powerful with the Force and served as Grandmaster of the Jedi Order. In The Empire Strikes Back, Yoda was voiced and puppeteered by Frank Oz, who reprised the role in Return of the Jedi, the prequel trilogy, and the sequel trilogy. Outside of the films, the character has been mainly voiced by Tom Kane, starting with the 2003 Clone Wars animated television series. Yoda has since become an iconic figure in popular culture due to his distinct pattern of speech and role as a wise mentor.</br></br>
+
+
+
       <h2><strong>" Batman </strong><i> Aka </i> Bruce Wayne "</h2>
       <h3>Back End Dev</h3>
       <div class="batman">
@@ -83,8 +81,8 @@
 
         In his first appearance in the original trilogy, Yoda is described as the mentor of Obi-Wan Kenobi, and lives in exile on the swamp planet of Dagobah. He trains Luke Skywalker in the ways of the Force until his death at the age of 900 in Return of the Jedi, though he later returns as a Force spirit. In the prequel trilogy, Yoda leads the Jedi High Council and trains the young generations of Jedi until they are assigned to a master. When the Clone Wars breaks out, he becomes a general in the Galactic Republic's army and leads several legions of clone troopers. Yoda is one of the few Jedi to survive the events of Order 66 at the end of the war, and faces off against Emperor Palpatine, but is outmatched and forced to go into hiding. Yoda's spirit appears again in the sequel trilogy, advising an older Luke and empowering Rey to face a revived Palpatine.
       </p>
-
     </div>
+
   </section>
   <?php include("_footer.php"); ?>
   <script src="assets/js/script.js"></script>
