@@ -224,8 +224,10 @@ header a{
 /* ////////// Section containing the different links for choosing languages ///////////// */
 
 .boxLanguage{
-    margin-top: 2rem;
+    width: 100%;
+    margin-top: 2rem ;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
