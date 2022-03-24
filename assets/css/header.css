@@ -7,6 +7,25 @@ header{
     box-shadow: 0 2px 10px black;
 }
 
+.boxLogo{
+    position: absolute;
+    width:  clamp(3rem, 20vw, 7rem);
+    height: clamp(3rem, 20vw, 7rem);
+    left:10vw ;
+}
+
+.boxLogo a img{
+    margin-top: 0.5rem;
+    width:  clamp(3rem, 18vw, 5rem);
+    height: clamp(3rem, 18vw, 5rem);
+}
+
+@media screen and (min-width: 800px) {
+    .boxLogo{
+        left: 5vw ;
+    }
+}
+
 /* /////////////////////////// button burger /////////////////////////////// */
 
 .buttonBurger{

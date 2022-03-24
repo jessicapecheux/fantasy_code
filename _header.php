@@ -1,4 +1,8 @@
 <header>
+    <div class="boxLogo">
+    <a href="index.php"><img src="assets\images\fantasy_code.png" alt="Page logo"></a>
+    
+    </div> 
     <div class="buttonBurger">
         <span class="burger burger1"></span>
         <span class="burger burger2"></span>
