@@ -1,8 +1,8 @@
-@import url(style.css);
+
 
 p {
-  font-family: var(--font-primary);
-    color: var(--background-first-color);
+    font-family: "Fredoka", sans-serif;
+    color: var(--backrgound-first-color);
     font-size: 1.2rem;
     text-align: justify;
     margin: 3rem;

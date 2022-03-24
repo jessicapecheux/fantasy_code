@@ -1,6 +1,6 @@
 <?php include("_header.php"); ?>
 <script src="assets/js/script.js"></script>
-<link rel="stylesheet" href="/assets/css/_contact.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>

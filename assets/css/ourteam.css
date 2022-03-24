@@ -1,4 +1,4 @@
-@import url(style.css);
+
 
 p {
   font-family: var(--font-primary);
@@ -39,15 +39,36 @@ h3 {
   margin: 2rem;
 }
 
-div {
+.hulk {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+}
+
+.homer {
+  display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
 }
 
-.hulkQuote {
+.batman {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+div.yoda {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+div p {
   font-size: 1rem;
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
@@ -57,59 +78,19 @@ div {
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
   width: 150px;
-  height: 100px;
-  padding-left: 0.5rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 div.homer {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
-.homerQuote {
-  border: 1px solid #aefac6;
-  color: rgb(241, 103, 10);
-  background-color: #ebfbf0;
-  font-size: 1rem;
-  border-radius: 3%;
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
-    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-  width: 150px;
-  height: 100px;
-  padding-top: 1rem;
-  padding-left: 1rem;
-}
-
-.batmanQuote {
-  border: 1px solid #aefac6;
-  color: rgb(241, 103, 10);
-  background-color: #ebfbf0;
-  font-size: 1rem;
-  border-radius: 3%;
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
-    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-  width: 150px;
-  height: 100px;
-  padding-top: 1rem;
-  padding-left: 0.5rem;
-}
 
 div.yoda {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
-.yodaQuote {
-  border: 1px solid #aefac6;
-  color: rgb(241, 103, 10);
-  background-color: #ebfbf0;
-  font-size: 1rem;
-  border-radius: 3%;
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
-    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-  width: 150px;
-  height: 100px;
-  padding-top: 1rem;
-  padding-left: 1rem;
-}
 
 @media screen and (min-width: 800px) {
   div {
@@ -127,22 +108,13 @@ div.yoda {
     width: 30vh;
   }
 
-  .hulkQuote {
-    width: 40vh;
-    height: 20vh;
-    font-size: 2rem;
-    padding-top: 5rem;
-    text-align: center;
-  }
-
   .homerPic {
     width: 30vh;
   }
 
-  .homerQuote {
+  div p {
     width: 35vh;
-    height: 20vh;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 0.5rem;
     padding-left: 3rem;
     line-height: 80px;
@@ -152,25 +124,9 @@ div.yoda {
     width: 50vh;
   }
 
-  .batmanQuote {
-    width: 35vh;
-    height: 20vh;
-    font-size: 2rem;
-    padding-top: 0.5rem;
-    padding-left: 2rem;
-    line-height: 80px;
-  }
-
-  .yodaPic {
+   .yodaPic {
     width: 100vh;
   }
 
-  .yodaQuote {
-    width: 35vh;
-    height: 20vh;
-    font-size: 2rem;
-    padding-top: 0.5rem;
-    padding-left: 3rem;
-    line-height: 80px;
-  }
+
 }
