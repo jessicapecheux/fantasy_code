@@ -11,7 +11,7 @@
 
 <body>
     <?php include("_header.php"); ?>
-
+<div class="data">
     <h1>Data Analyst</h1>
 
     <h2>What is Data Analysis ?</h2>
@@ -33,7 +33,7 @@
     <h2>Explore a Career as a<br> Data Analyst</h2>
 
     <p class="items_1">If you like mathematics, computer science, statistics and love research and discover, then a career in the field of data analysis may be perfect for you. Take an introductory course in Excel or Python for data analysis and learn more about the in-demand world of data analytics. Many courses are free and self-paced so you can enroll and start learning today.</p>
-
+    </div>
 
     <?php include("_footer.php"); ?>
     <script src="assets/js/script.js"></script>
