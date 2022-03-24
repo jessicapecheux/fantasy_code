@@ -18,7 +18,7 @@
 
     <p class="items_1">Web design (page design) is the art and science of building the look, feel, and how a website and web page functions in a nutshell. Having a clear user interface and easy to use website will ultimately lead to a better user experience for your target audience. There are many aspects of successful web design like HTML, HTML5, cascading style sheets, colors, JavaScript, responsive design, layouts, social media, text size, graphics, and so much more. Understanding a plethora of programming languages back-end code development, and more will be critical for a web browser rendering your content. If you've been wondering how to learn web and ux design, you've come to the right place!</p>
 
-    <h2>Web Designing Courses</br> for Beginners</h2>
+    <h2>Web Designing Courses<br> for Beginners</h2>
 
     <p class="items_1">edX provides web design training with free online courses for all levels. Learn web design with introductory tutorials and courses from some of the world's leading universities. The World Wide Web Consortium (W3C)'s CSS Basics teaches you about multiple design topics including best practices in web design, design principles, design tools, and much more. You will learn how to take your Web pages from bland to bold with the power of CSS styling. Learn the basic selection of CSS properties, fundamental CSS selectors, and designing page layout through relative positioning with CSS</p>
 
