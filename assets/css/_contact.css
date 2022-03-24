@@ -1,1 +1,43 @@
 @import url(style.css);
+h1 {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  color: var(--background-first-color);
+  padding-top: 5rem;
+  letter-spacing: 1rem;
+
+}
+
+label
+{
+    display:block; 
+    width:100px; 
+    float:left;
+}
+.container_form  {
+    display: flex;
+    justify-content: center;
+}
+
+
+    
+   
+
+
+
+  
+
+    
+   
+
+
+
+
+
+
+
+
+
+
