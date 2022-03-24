@@ -5,7 +5,7 @@ footer {
     align-items: center;
     
     background-color: var( --background-first-color);
-    color: var( --background-second-color);
+    /* color: var( --background-second-color); */
     /* font-family: var( --font-primary);  */
     box-shadow: 0 2px 10px black;
 }
@@ -25,14 +25,6 @@ img {
     max-width: 40%;
     min-width: 1.5rem;
 }
-    
-/* #contact_us {
-    height: 5%;
-    display: flex;
-    align-items: center;
-    
-    padding: 0 0 0 2vw;
-} */
 
 #contact_us a {
     text-decoration: none;
@@ -53,8 +45,32 @@ footer h2 {
     margin: 0;
     padding: 0;
 }
+/* phone number appear */
 
-
-
- 
+footer h3 {
+    display: none;
+}
+@media screen and (min-width: 800px){
+    .tel_number {
+        margin: 0;
+        padding: 0; 
+    }
+    
+    footer h3 {
+        
+       display: block; 
+       color: var(--background-first-color);
+       font-size: 1.6vw; 
+       margin: 0;
+       padding: 0;
+       border-radius: 10rem;
+       background-color: var(--background-first-color);
+       transition-property: var( --background-main-color);
+       transition-duration: 5s;
+    }
+    
+    footer .phone_number_appear {
+        background-color:  var( --background-main-color);
+    } 
+}
 
