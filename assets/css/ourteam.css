@@ -31,6 +31,7 @@ h3 {
   color: var(--background-first-color);
   padding-bottom: 3rem;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .ourteam {
@@ -43,11 +44,11 @@ h3 {
 .ourteam div {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
+  width: 100%;
 }
 
-div p {
+.ourteam div p {
   font-size: 1rem;
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
@@ -63,6 +64,7 @@ div p {
 
 div.homer {
   flex-direction: row-reverse;
+  
 }
 
 
@@ -72,14 +74,14 @@ div.yoda {
 
 
 @media screen and (min-width: 800px) {
-  div {
+  .ourteam div {
     
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
   }
 
-  p {
-    max-width: 60%;
+  .ourteam p {
+    max-width: 70%;
     margin: auto;
   }
 
@@ -91,7 +93,7 @@ div.yoda {
     width: 30vh;
   }
 
-  div p {
+  .ourteam div p {
     width: 35vh;
     font-size: 1.8rem;
     padding-top: 0.5rem;
