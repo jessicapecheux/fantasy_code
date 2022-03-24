@@ -11,6 +11,12 @@ buttonBurger.addEventListener("click", function () {
     burger3.classList.toggle("btnOpen2");
   });
 
+const phone_button = document.querySelector(".phone");
+const phone_number = document.querySelector(".tel_number");
+
+phone_button.addEventListener("click", function () {
+  phone_number.classList.toggle("phone_number_appear")
+});
 
 document.addEventListener("DOMContentLoaded", function(){
   ScrollReveal().reveal('.items_1', {
