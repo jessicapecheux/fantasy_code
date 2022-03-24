@@ -1,6 +1,6 @@
 
 
-p {
+p.ourteam {
   font-family: var(--font-primary);
   color: var(--background-first-color);
   font-size: 1.2rem;
@@ -9,7 +9,7 @@ p {
   font-weight: 500;
 }
 
-h1 {
+h1.ourteam {
   font-family: var(--font-primary);
   font-size: 7rem;
   color: var(--background-first-color);
@@ -18,7 +18,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2.ourteam {
   font-family: var(--font-primary);
   color: var(--background-second-color);
   font-size: 2.5rem;
@@ -39,29 +39,8 @@ h3 {
   margin: 2rem;
 }
 
-.hulk {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
 
-}
-
-.homer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-.batman {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-div.yoda {
+.ourteam div {
   display: flex;
   justify-content: space-between;
   width: 100%;
