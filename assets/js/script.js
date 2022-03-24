@@ -15,5 +15,20 @@ const phone_button = document.querySelector(".phone");
 const phone_number = document.querySelector(".tel_number");
 
 phone_button.addEventListener("click", function () {
-  phone_number.classList.toggle("phone_number_appear");
+  phone_number.classList.toggle("phone_number_appear")
+});
+
+document.addEventListener("DOMContentLoaded", function(){
+  ScrollReveal().reveal('.items_1', {
+      reset: true,
+      distance: '20%', 
+      origin: 'left',
+      delay: 300 
+  });
+  ScrollReveal().reveal('.items_2', {
+      reset: true, 
+      distance: '20%',  
+      origin: 'right',
+      delay: 700  
+  });
 });
