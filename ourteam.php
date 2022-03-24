@@ -14,7 +14,7 @@
 
   <h1>Our Team</h1>
   <section class="ourteam">
-    <h2>" Hulk <i>Aka</i> Bruce Banner "</h2>
+    <h2>"Hulk <i>Aka</i> Bruce Banner"</h2>
 
     <h3>Front End Dev</h3>
     <div class="hulk">

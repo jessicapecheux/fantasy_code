@@ -27,8 +27,5 @@ body {
     background-color: var(--background-main-color);
 }
 
-@import url(data.css);
-@import url(designer.css);
-@import url(devback.css);
-@import url(_devfront.css);
+
 
