@@ -14,7 +14,7 @@
 
     <p class="welcomeMsg">
         Do you want to learn your job in a fun way? that comply with the requirements of the current market? and who in addition protects the planet?
-        So start your <span class="wordColour">adventure </span>!
+        So start your <a href="/contact.php" class="contactLink">adventure </a>!
     </p>
 
     <h2 class="title_h2">Before starting web development</h2>
