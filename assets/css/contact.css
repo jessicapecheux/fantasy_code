@@ -24,7 +24,7 @@
 }
 .buton {
     align-self: center;
-    width: 30%;
+    width: 40%;
     height: 30px;
     margin-top: 1rem;
 }
@@ -42,7 +42,9 @@
 }
 
 
-
+.container_form textarea{
+    width: clamp(60%, 80vw, 100%);
+}
 
 
    
