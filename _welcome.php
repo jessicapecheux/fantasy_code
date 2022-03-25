@@ -1,9 +1,9 @@
 <section class="welcomeBox">
-    <img src="assets\images\banière.jpg" alt="developer image">
+    <img src="assets/images/banière.jpg" alt="developer image">
 </section>
 <section class="welcomeBox">
 
-    <h1 class="welcomeTitle"> Welcome to the Green Code School</h1>
+    <h1 class="welcomeTitle"> Welcome to the Fantasy Code</h1>
 
     <p class="welcomeMsg">
         Welcome to the first French training site in maintainable, adaptable and eco-responsible web experience.
@@ -17,7 +17,7 @@
         So start your <span class="wordColour">adventure </span>!
     </p>
 
-    <h2>Before starting web development</h2>
+    <h2 class="title_h2">Before starting web development</h2>
 
     <p class="welcomeMsg">
         If you are just starting to learn web development, it is very important that you get hands-on experience!

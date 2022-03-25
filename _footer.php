@@ -10,12 +10,13 @@
                 <a href="https://www.instagram.com/?hl=fr">
                         <img src="assets/images/instagram.png" alt="instagram"  />
                 </a>
-                <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <a href="mailto:https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
                         <img src="assets/images/gmail.png" alt="gmail"  />
                 </a>
-                <a href="tel:=+33000000007">
+                <a class="phone" href="tel:=+33000000007">
                         <img src="assets/images/phone.png" alt="phone"  />
                 </a>
+                <h3 class= "tel_number">0.000.000.007</h3>
         </div>
         <div id= "copyrightFantasy">&#9400; Fantasy Code 2022</div>
 </footer>

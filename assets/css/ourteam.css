@@ -1,29 +1,31 @@
-
-
-p {
+.ourteam p {
   font-family: var(--font-primary);
   color: var(--background-first-color);
   font-size: 1.2rem;
   text-align: justify;
   line-height: 2rem;
   font-weight: 500;
+  padding-top: 5rem;
+  
 }
 
-h1 {
+.ourteam h1 {
   font-family: var(--font-primary);
   font-size: 7rem;
   color: var(--background-first-color);
   padding-top: 5rem;
   letter-spacing: 1rem;
   text-align: center;
+  font-size: clamp(1rem, 10vw, 6rem);
 }
 
-h2 {
+.ourteam h2 {
   font-family: var(--font-primary);
   color: var(--background-second-color);
   font-size: 2.5rem;
   padding-top: 3rem;
   text-align: center;
+  font-size: clamp(1rem, 10vw, 6rem);
 }
 
 h3 {
@@ -31,44 +33,24 @@ h3 {
   color: var(--background-first-color);
   padding-bottom: 3rem;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .ourteam {
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  color:var(--background-first-color)
 }
 
-.hulk {
+.ourteam div {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
-
+  width: 100%;
 }
 
-.homer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-.batman {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-div.yoda {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-div p {
+.ourteam div p {
   font-size: 1rem;
   border: 1px solid #aefac6;
   color: rgb(241, 103, 10);
@@ -82,37 +64,26 @@ div p {
   padding-left: 1rem;
 }
 
-div.homer {
+.homer {
   flex-direction: row-reverse;
 }
 
-
-div.yoda {
+.yoda {
   flex-direction: row-reverse;
 }
-
 
 @media screen and (min-width: 800px) {
-  div {
-    
-    max-width: 60%;
+  .ourteam div {
+    max-width: 70%;
     margin: auto;
   }
 
-  p {
-    max-width: 60%;
+  .ourteam p {
+    max-width: 70%;
     margin: auto;
   }
 
-  .hulkPic {
-    width: 30vh;
-  }
-
-  .homerPic {
-    width: 30vh;
-  }
-
-  div p {
+  .ourteam div p {
     width: 35vh;
     font-size: 1.8rem;
     padding-top: 0.5rem;
@@ -120,13 +91,19 @@ div.yoda {
     line-height: 80px;
   }
 
+  .hulkPic {
+    width: 250px;
+  }
+  
+  .homerPic {
+    width: 200px;
+  }
+
   .batmanPic {
-    width: 50vh;
+    width: 300px;
   }
 
-   .yodaPic {
-    width: 100vh;
+  .yodaPic {
+    width: 300px;
   }
-
-
 }

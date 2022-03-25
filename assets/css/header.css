@@ -7,6 +7,25 @@ header{
     box-shadow: 0 2px 10px black;
 }
 
+.boxLogo{
+    position: absolute;
+    width:  clamp(3rem, 20vw, 7rem);
+    height: clamp(3rem, 20vw, 7rem);
+    left:10vw ;
+}
+
+.boxLogo a img{
+    margin-top: 0.5rem;
+    width:  clamp(3rem, 18vw, 5rem);
+    height: clamp(3rem, 18vw, 5rem);
+}
+
+@media screen and (min-width: 800px) {
+    .boxLogo{
+        left: 5vw ;
+    }
+}
+
 /* /////////////////////////// button burger /////////////////////////////// */
 
 .buttonBurger{
@@ -105,7 +124,7 @@ header nav ul{
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0 ;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -149,11 +168,11 @@ header a{
     }
 
     header nav ul li:first-child{
-        margin-right: 11vw;
+        margin-right: 15vw;
     } 
 
     header nav ul li:nth-child(3){
-        margin-left: 11vw;
+        margin-left: 15vw;
     }
 }
 
@@ -194,6 +213,10 @@ header a{
     header a:hover::before{
         width: 100%;
     }
+
+    .boxLogo a::after, .boxLogo a::before{
+        display: none;
+    }
 }
 
 
@@ -223,9 +246,11 @@ header a{
 
 /* ////////// Section containing the different links for choosing languages ///////////// */
 
-section{
-    margin-top: 2rem;
+.boxLanguage{
+    width: 100%;
+    margin-top: 2rem ;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }

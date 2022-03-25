@@ -1,4 +1,8 @@
 <header>
+    <div class="boxLogo">
+    <a href="index.php"><img src="assets/images/fantasy_code.png" alt="Page logo"></a>
+    
+    </div> 
     <div class="buttonBurger">
         <span class="burger burger1"></span>
         <span class="burger burger2"></span>
@@ -15,7 +19,7 @@
             <li><a href="data.php">Data</a></li>
         </ul>
     </nav>
-    <section>
+    <section class="boxLanguage">
         <div class="language"><a href="devfront.php">Front-end</a></div>
         <div class="language"><a href="devback.php">Back-end</a></div>
         <div class="language"><a href="designer.php">Designer</a></div>
