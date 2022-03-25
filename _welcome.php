@@ -1,5 +1,5 @@
 <section class="welcomeBox">
-    <img src="assets\images\banière.jpg" alt="developer image">
+    <img src="assets/images/banière.jpg" alt="developer image">
 </section>
 <section class="welcomeBox">
 

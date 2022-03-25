@@ -1,4 +1,3 @@
-<?php include("_header.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +10,7 @@
 </head>
 
 <body>
+<?php include("_header.php"); ?>
   <section>
     <div class="ourteam">
       <h1>Our Team</h1>
