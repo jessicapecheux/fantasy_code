@@ -1,15 +1,19 @@
-h1 {
+h1 {color: rgb(179, 167, 167) ;
     
 }
 .container_form {
     display: flex; 
     align-items: center;
     justify-content: center;
-    width: 75%;
-    height: auto;
     background-color: rgb(241, 103, 10);
-    border-radius: 10 px;
+    border-radius: 5px;
+    border: 5px solid gray ;
     
+
+
+    
+    
+
     
     
 }
