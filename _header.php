@@ -1,6 +1,6 @@
 <header>
     <div class="boxLogo">
-    <a href="index.php"><img src="/assets/images/fantasy_code.png" alt="Page logo"></a>
+    <a href="/index.php"><img src="/assets/images/fantasy_code.png" alt="Page logo"></a>
     
     </div> 
     <div class="buttonBurger">
