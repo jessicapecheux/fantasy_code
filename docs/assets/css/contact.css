@@ -1,0 +1,54 @@
+.container_form h1 {
+  color: var(--background-main-color);
+  margin: 1rem auto;
+  font-size: clamp(1rem, 10vw, 6rem);
+  text-align: center;
+}
+.container_form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px black;
+
+  align-items: center;
+  width: 60%;
+  margin: 8rem auto 6rem auto;
+  height: 700px;
+  justify-content: center;
+  background-color: var(--background-first-color);
+  border-radius: 10px;
+}
+.buton {
+  align-self: center;
+  width: 40%;
+  height: 30px;
+  margin-top: 1rem;
+}
+
+.firstname,
+.lastname,
+.mail,
+.message {
+  color: var(--background-main-color);
+  font-size: 1.2rem;
+  text-align: justify;
+  margin: 3rem;
+  text-align: center;
+}
+
+.container_form input,
+.container_form textarea {
+  border-radius: 10px;
+}
+
+.container_form textarea {
+  width: clamp(60%, 80vw, 100%);
+}
+
+@media screen and (min-width: 1200px) {
+  .container_form {
+    width: 30%;
+  }
+  .container_form h1 {
+    font-size: clamp(1rem, 10vw, 5rem);
+  }
+}

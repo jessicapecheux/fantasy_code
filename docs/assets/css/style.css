@@ -1,0 +1,31 @@
+@import url(header.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(welcome.css);
+@import url(ourteam.css);
+@import url(devfront.css);
+@import url(devback.css);
+@import url(data.css);
+@import url(designer.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Roboto:wght@100;700&display=swap');
+
+:root {
+    --background-first-color:#1E9F69;
+    --background-second-color:#E97101;
+    --font-primary: 'Fredoka', sans-serif;
+    --background-main-color:#edeec9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-main-color);
+}
+
+
+

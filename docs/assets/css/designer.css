@@ -1,0 +1,36 @@
+.designer p {
+    font-family: var(--font-primary);
+    color: var(--background-first-color);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+    
+  }
+  
+  .designer h1 {
+    font-family: var(--font-primary);
+    font-size: 7rem;
+    text-align: center;
+    color: var(--background-first-color);
+    padding-top: 5rem;
+    letter-spacing: 1rem;
+    font-size: clamp(1rem, 10vw, 6rem);
+  }
+  
+  .designer h2 {
+    text-align: center;
+    font-family: var(--font-primary);
+    color: rgb(241, 103, 10);
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(1rem, 7vw, 3rem);
+  }
+
+  @media screen and (min-width: 800px){
+
+    .designer p {
+      max-width: 60%;
+      margin: auto;
+    }
+  }

@@ -1,0 +1,54 @@
+.boxContainer{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.boxContainer h1 {
+  font-family: var(--font-primary);
+  font-size: clamp(1rem, 10vw, 6rem);
+  text-align: center;
+  color: var(--background-first-color);
+  padding-top: 1.5rem;
+  letter-spacing: .5rem;
+ 
+  }
+  
+.boxContainer h2 {
+  text-align: center;
+  font-family: var(--font-primary);
+  color: rgb(241, 103, 10);
+  font-size: clamp(1rem, 7vw, 3rem);
+  padding: 1rem 0;
+    
+  }
+
+
+  .boxContainer p {
+    font-family: var(--font-primary);
+    color: var(--background-first-color);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+    }
+
+.boxContainer ul li {
+    font-family: "Fredoka", sans-serif;
+    color: var(--background-first-color);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 3rem;
+  }
+
+
+.boxContainer ul{
+  padding: 0;
+}
+   @media screen and (min-width: 800px){
+
+.boxContainer p, ul{
+      max-width: 60%;
+      margin: 2rem auto;
+    }
+  } 

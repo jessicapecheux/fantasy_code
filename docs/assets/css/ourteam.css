@@ -1,0 +1,113 @@
+.ourteam p {
+  font-family: var(--font-primary);
+  color: var(--background-first-color);
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 2rem;
+  font-weight: 500;
+  padding-top: 5rem;
+}
+
+.ourteam h1 {
+  font-family: var(--font-primary);
+  font-size: 7rem;
+  color: var(--background-first-color);
+  padding-top: 5rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 6rem);
+}
+
+.ourteam h2 {
+  font-family: var(--font-primary);
+  color: var(--background-second-color);
+  font-size: 2.5rem;
+  padding-top: 3rem;
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 6rem);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: var(--background-first-color);
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.ourteam {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  color: var(--background-first-color);
+}
+
+.ourteam div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.teamImg {
+  min-width: 1.5rem;
+  max-width: 40%;
+}
+
+.ourteam div p {
+  font-size: 1rem;
+  border: 1px solid #aefac6;
+  color: rgb(241, 103, 10);
+  background-color: #ebfbf0;
+  padding-top: 2rem;
+  border-radius: 3%;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  width: 150px;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.homer {
+  flex-direction: row-reverse;
+}
+
+.yoda {
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 800px) {
+  .ourteam div {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .ourteam p {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .ourteam div p {
+    width: 35vh;
+    font-size: 1.8rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    line-height: 80px;
+  }
+
+  .hulkPic {
+    width: 250px;
+  }
+
+  .homerPic {
+    width: 200px;
+  }
+
+  .batmanPic {
+    width: 300px;
+  }
+
+  .yodaPic {
+    width: 300px;
+  }
+}
