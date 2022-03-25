@@ -5,6 +5,8 @@
   text-align: justify;
   line-height: 2rem;
   font-weight: 500;
+  padding-top: 5rem;
+  
 }
 
 .ourteam h1 {
@@ -38,6 +40,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  color:var(--background-first-color)
 }
 
 .ourteam div {
@@ -45,10 +48,6 @@ h3 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.ourteam {
-  color:var(--background-first-color)
 }
 
 .ourteam div p {
@@ -84,14 +83,6 @@ h3 {
     margin: auto;
   }
 
-  .hulkPic {
-    width: 30vh;
-  }
-
-  .homerPic {
-    width: 30vh;
-  }
-
   .ourteam div p {
     width: 35vh;
     font-size: 1.8rem;
@@ -100,11 +91,19 @@ h3 {
     line-height: 80px;
   }
 
+  .hulkPic {
+    width: 250px;
+  }
+  
+  .homerPic {
+    width: 200px;
+  }
+
   .batmanPic {
-    width: 50vh;
+    width: 300px;
   }
 
   .yodaPic {
-    width: 100vh;
+    width: 300px;
   }
 }
