@@ -1,5 +1,5 @@
 <section class="welcomeBox">
-    <img src="assets/images/banière.jpg" alt="developer image">
+    <img src="/assets/images/banière.jpg" alt="developer image">
 </section>
 <section class="welcomeBox">
 
@@ -24,7 +24,7 @@
     </p>
 
     <p class="welcomeMsg">
-        To start practicing, install a code editor like <a class="vscodeLink" href="https://code.visualstudio.com/">VSCode</a> right away.
+        To start practicing, install a code editor like <a class="vscodeLink" href='https://code.visualstudio.com/'>VSCode</a> right away.
         This way, as soon as you want to start coding, you won't have to install anything.
         It is also very important to have a project in mind to start with.
     </p>

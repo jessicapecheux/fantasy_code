@@ -31,8 +31,8 @@
     <p class="items_1">According to Glassdoor, you can expect an average salary of $64,468 in the United States for web design. As your experience grows in website design, you can expect to see higher salary ranges. For example, you can expect an average Junior Web Designer to make around $62k in the United States. As a Front End Web Developer, you can expect to make over $90k. Take a web design class today!</p>
     </div>
     <?php include("_footer.php"); ?>
-    <script src="assets/js/script.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src='https://unpkg.com/scrollreveal'></script>
 </body>
 
 </html>

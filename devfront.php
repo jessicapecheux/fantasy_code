@@ -84,8 +84,8 @@
     </div>
     <?php include("_footer.php"); ?>
 
-    <script src="assets/js/script.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src='https://unpkg.com/scrollreveal'></script>
 </body>
 
 </html>

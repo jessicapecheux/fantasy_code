@@ -15,7 +15,7 @@
 <div class="container_form">
             <h1>Contact us</h1>
 
-    <form action="/action.contact.php"method="post">
+    <form action="/contact.php"method="post">
             <div class="firstname">
              <label for="name">First name</label><br />
             <input type="text" id="fname"name="firstane" placeholder="Your First name" required><br />
@@ -43,7 +43,7 @@
         </form> 
     </div>
     <?php include("_footer.php"); ?>
-    <script src="assets/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body> 
 </html>
 
