@@ -9,11 +9,13 @@
 </head>
 <body>
 <?php include("_header.php"); ?>
-    <h1>Contact us</h1>
 
 
-    <div class="container_form">
-        <form action="/action.contact.php"method="post">
+
+<div class="container_form">
+            <h1>Contact us</h1>
+
+    <form action="/action.contact.php"method="post">
             <div class="firstname">
              <label for="name">First name</label><br />
             <input type="text" id="fname"name="firstane" placeholder="Your First name" required><br />

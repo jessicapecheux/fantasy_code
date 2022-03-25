@@ -1,5 +1,7 @@
-h1 {  width: 60%;
-    color: var(--background-first-color);
+.container_form h1{
+
+  
+    color: var(--background-main-color);
     margin: 1rem auto;
     font-size: clamp(1rem, 10vw, 6rem); 
     text-align: center;
@@ -7,60 +9,42 @@ h1 {  width: 60%;
 }
 .container_form {
     display: flex; 
+    flex-direction: column;
+    box-shadow: 10px 10px 10px black;
+
     align-items: center;
+    width: 60%;
+    margin: 8rem auto 6rem auto;
+    height: 700px;
     justify-content: center;
-    background-color: rgb(241, 103, 10);
-    border-radius: 5px;
-    border: 5px solid gray ;
-    
-
-
-    
-    
-
+    background-color: var(--background-first-color);
+    border-radius: 10px;
     
     
 }
 .buton {
     align-self: center;
+    width: 30%;
+    height: 30px;
+    margin-top: 1rem;
 }
 
-.firstname {
-    color: var(--background-first-color);
+.firstname, .lastname, .mail,.message {
+    color: var(--background-main-color);
     font-size: 1.2rem;
     text-align: justify;
     margin: 3rem;
-text-align: center;
+    text-align: center;
     }
-.lastname {
-    color: var(--background-first-color);
-text-align: center;
-font-size: 1.2rem;
-text-align: justify;
-margin: 3rem;
-text-align: center;
-}
-.mail {  
-    color: var(--background-first-color);
-    text-align: center;
-    font-size: 1.2rem;
-    text-align: justify;
-    margin: 3rem;
-    text-align: center;
-
-
+    
+.container_form input, .container_form textarea{
+    border-radius: 10px;
 }
 
 
 
-.message {  color: var(--background-first-color);
-    text-align: center;
-    font-size: 1.2rem;
-    text-align: justify;
-    margin: 3rem;
-    text-align: center;
 
-}
+
    
 
     
