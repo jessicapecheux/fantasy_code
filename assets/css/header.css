@@ -80,17 +80,21 @@ header{
 
 .sideNavBar{
     display: none;
-    background-color: var(--background-second-color);
+    background-color:var(--background-main-color);
     width: 200px;
     height: 450px;
     border-radius: 0 30px 30px 0;
-    border: 2px solid #663202;
     box-shadow: 5px 5px 10px black;
     position: absolute;
     top: 100px;
     z-index: 100;
     animation: slideOpen 1.2s;
 }
+
+.sideNavBar ul li a{
+    color: var(--background-main-color);
+}
+
 
 /* ////////////////////// Animation nav bar  /////////////////////////// */
 
@@ -132,14 +136,17 @@ header nav ul{
 }
 
 header nav ul li{
-    width: 100%;
+    width: 95%;
     height: 40px;
     list-style: none;
     font-size: 1.5rem;
     margin-top: 1.2rem;
-    background-color: rgb(245, 149, 60);
+    padding-top: .4rem;
+    background-color: var(--background-first-color);
     text-align: center;
     border-bottom: 1px solid rgb(41, 20, 3);
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
 }
 
 header nav ul li:nth-child(1){
@@ -161,6 +168,8 @@ header a{
         background-color: initial;
         border-bottom: initial;
         width: 10%;
+        box-shadow:initial;
+        border-radius: 10px;
     }
 
     header nav ul li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(7){
@@ -181,13 +190,13 @@ header a{
 @media screen and (min-width: 800px) {
    header a:hover{
         transition: .3s;
-        color: rgb(245, 153, 78);
+        color: var(--background-main-color);
     }
 
     header a::after{
         content: "";
         position: absolute;
-        background-color: rgb(245, 153, 78);
+        background-color: var(--background-main-color);
         height: 3px;
         width: 0;
         left: 0;
@@ -198,7 +207,7 @@ header a{
     header a::before{
         content: "";
         position: absolute;
-        background-color: rgb(245, 153, 78);
+        background-color: var(--background-main-color);
         height: 1px;
         width: 0;
         right: 0;

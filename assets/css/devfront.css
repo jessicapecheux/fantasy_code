@@ -35,7 +35,7 @@
 
 .boxContainer ul li {
     font-family: "Fredoka", sans-serif;
-    color: var(--backgound-first-color);
+    color: var(--background-first-color);
     font-size: 1.2rem;
     text-align: justify;
     margin: 3rem;

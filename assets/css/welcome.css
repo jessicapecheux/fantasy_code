@@ -40,7 +40,7 @@
     margin-bottom: 3rem;
 }
 
-.vscodeLink{
+.vscodeLink, .contactLink{
     list-style: none;
     text-decoration: none;
     color: red;
@@ -72,10 +72,5 @@
 }
 
 
-.wordColour{
-    color: red;
-    font-weight: bold;
-    letter-spacing: .1rem;
-}
 
 
