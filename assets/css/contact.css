@@ -1,4 +1,8 @@
-h1 {color: rgb(179, 167, 167) ;
+h1 {  width: 60%;
+    color: var(--background-first-color);
+    margin: 1rem auto;
+    font-size: clamp(1rem, 10vw, 6rem); 
+    text-align: center;
     
 }
 .container_form {
